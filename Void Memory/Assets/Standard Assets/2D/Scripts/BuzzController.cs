@@ -35,7 +35,7 @@ namespace UnityStandardAssets._2D
 		public override void Move()
 		{
 			// Read the inputs.
-			bool crouch = Input.GetKey(KeyCode.RightControl);
+			bool crouch = Input.GetKey(KeyCode.DownArrow);
 			float move = Input.GetAxis("HorizontalBuzz");
 			// If crouching, check to see if the character can stand up
 			if (!crouch && m_Anim.GetBool("Crouch"))
@@ -56,7 +56,6 @@ namespace UnityStandardAssets._2D
 				if (m_Grounded)
 				{
 					m_timerJetpack = 0f;
-					m_jetpackActive = false;
 				}
 				// Reduce the speed if crouching by the crouchSpeed multiplier
 				move = (crouch ? move * m_CrouchSpeed : move);
@@ -85,10 +84,8 @@ namespace UnityStandardAssets._2D
 			}
 			if (Input.GetKey(KeyCode.J) && m_timerJetpack < 1f)
 			{
-				m_Rigidbody2D.velocity.Set(0f, 0f);
 				m_Rigidbody2D.gravityScale = 0;
 				m_timerJetpack += 0.01f;
-				print(m_timerJetpack);
 				m_jetpackActive = true;
 				m_Grounded = false;
 				m_Anim.SetBool("Ground", false);
@@ -104,7 +101,7 @@ namespace UnityStandardAssets._2D
 				// Add a vertical force to the player.
 				m_Grounded = false;
 				m_Anim.SetBool("Ground", false);
-				m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+				m_Rigidbody2D.velocity = new Vector2(0f, m_JumpForce);
 			}
 			m_Jump = false;
 		}
