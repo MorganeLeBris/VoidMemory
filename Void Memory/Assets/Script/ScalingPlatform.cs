@@ -3,14 +3,14 @@ using System.Collections;
 
 public class ScalingPlatform : MonoBehaviour {
     Vector2 startScale;
-    Vector2 endScale = Vector2.one;
+    Vector2 endScale = new Vector2(0.9683993f, 0.3138413f);
     float t;
     bool grandir;
     public float scale;
     // Use this for initialization
     void Start () {
         t = 0;
-        startScale = new Vector2(scale, 1);
+        startScale = new Vector2(scale, 0.3138413f);
         grandir = true;
 
     }
