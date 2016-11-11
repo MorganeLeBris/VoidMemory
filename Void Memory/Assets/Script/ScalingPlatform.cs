@@ -3,7 +3,7 @@ using System.Collections;
 
 public class ScalingPlatform : MonoBehaviour {
     Vector2 startScale;
-    Vector2 endScale = new Vector2(1, 1);
+    Vector2 endScale = new Vector2(1, 0.5f);
     float t;
     bool grandir;
     public float scale;
@@ -11,7 +11,7 @@ public class ScalingPlatform : MonoBehaviour {
     // Use this for initialization
     void Start () {
         t = 0;
-        startScale = new Vector2(scale, 1);
+        startScale = new Vector2(scale, 0.5f);
         grandir = true;
 
     }
