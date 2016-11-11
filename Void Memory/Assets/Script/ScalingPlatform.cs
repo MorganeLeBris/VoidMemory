@@ -3,14 +3,15 @@ using System.Collections;
 
 public class ScalingPlatform : MonoBehaviour {
     Vector2 startScale;
-    Vector2 endScale = new Vector2(0.9683993f, 0.3138413f);
+    Vector2 endScale = new Vector2(1, 1);
     float t;
     bool grandir;
     public float scale;
+    public bool right;
     // Use this for initialization
     void Start () {
         t = 0;
-        startScale = new Vector2(scale, 0.3138413f);
+        startScale = new Vector2(scale, 1);
         grandir = true;
 
     }
@@ -22,7 +23,11 @@ public class ScalingPlatform : MonoBehaviour {
         {
             t += Time.deltaTime * 0.3f ;
             transform.localScale = Vector2.Lerp(endScale, startScale, t);
-            transform.Translate(new Vector3(-Time.deltaTime, 0, 0));
+
+            if(right)
+                transform.Translate(new Vector3(-Time.deltaTime/3, 0, 0));
+            else
+                transform.Translate(new Vector3(Time.deltaTime/3, 0, 0));
             if (t > 1)
             {
                 grandir = false;
@@ -33,7 +38,11 @@ public class ScalingPlatform : MonoBehaviour {
         {
             t -= Time.deltaTime * 0.3f;
             transform.localScale = Vector2.Lerp( endScale,startScale, t);
-            transform.Translate(new Vector3(Time.deltaTime, 0, 0));
+
+            if(right)
+                transform.Translate(new Vector3(Time.deltaTime/3, 0, 0));
+            else
+                transform.Translate(new Vector3(-Time.deltaTime/3, 0, 0));
             if (t < 0)
                 grandir = true;
         }
