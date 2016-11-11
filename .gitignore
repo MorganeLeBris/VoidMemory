@@ -28,3 +28,9 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+Void Memory/Library/ProjectSettings.asset
+Void Memory/ProjectSettings/EditorBuildSettings.asset
+Void Memory/ProjectSettings/InputManager.asset
+Void Memory/ProjectSettings/ProjectSettings.asset
+Void Memory/ProjectSettings/TagManager.asset
+*.meta
