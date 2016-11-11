@@ -12,7 +12,8 @@ namespace UnityStandardAssets._2D
         private void Awake()
         {
             m_Character = GetComponent<PlatformerCharacter2D>();
-        }
+			Physics2D.IgnoreLayerCollision(9, 10);
+		}
 
 
         private void Update()
@@ -23,6 +24,7 @@ namespace UnityStandardAssets._2D
         private void FixedUpdate()
         {
             // Pass all parameters to the character control script.
+			
             m_Character.Move();
         }
 
