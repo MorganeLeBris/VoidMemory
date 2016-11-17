@@ -20,11 +20,10 @@ public class PlatformController : RaycastController
 
     private List<PassengerMovement> passengerMovement;
     private Dictionary<Transform, Controller2D> passengerDictionary = new Dictionary<Transform, Controller2D>();
-    private bool inMoove;
+    public bool inMoove;
 
     public override void Start()
     {
-        inMoove = false;
         base.Start();
         
         globalWaypoints = new Vector3[localWaypoints.Length];
