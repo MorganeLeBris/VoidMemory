@@ -8,9 +8,10 @@ public class TriggerButton : MonoBehaviour {
     public Door door2;
     private bool istrigger=false;
 
-    void OnTriggerEnter(Collider collider)
+    void OnTriggerStay2D(Collider2D collider)
     {
-        if (collider.gameObject.tag == "Player" && Input.GetKeyDown("space") && !istrigger)
+		
+        if ((collider.gameObject.tag == "Buzz" || collider.gameObject.tag == "Horcan") && Input.GetKey("space") && !istrigger)
         {
             StartCoroutine(door.OpenUp());
             if(door2)
@@ -21,13 +22,5 @@ public class TriggerButton : MonoBehaviour {
     }
     void Update()
     {
-        if (Input.GetKeyDown("space") && !istrigger){
-            StartCoroutine(door.OpenUp());
-            if (door2)
-                StartCoroutine(door2.CloseUp());
-            GetComponent<SpriteRenderer>().sprite = newSprite;
-            istrigger = true;
-        }
-
     }
 }

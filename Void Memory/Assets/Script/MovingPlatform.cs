@@ -6,9 +6,9 @@ public class MovingPlatform : MonoBehaviour {
     public Sprite newSprite;
   
 
-    void OnTriggerEnter(Collider collider)
+    void OnTriggerStay2D(Collider2D collider)
     {
-        if (collider.gameObject.tag == "Player" && Input.GetKeyDown("space"))
+        if ((collider.gameObject.tag == "Buzz" || collider.gameObject.tag == "Horcan") && Input.GetKeyDown("space"))
         {
             plat.Moove();
             GetComponent<SpriteRenderer>().sprite = newSprite;
@@ -18,10 +18,5 @@ public class MovingPlatform : MonoBehaviour {
     }
     void Update()
     {
-        if (Input.GetKeyDown("space"))
-        {
-            plat.Moove();
-            GetComponent<SpriteRenderer>().sprite = newSprite;
-        }
     }
 }

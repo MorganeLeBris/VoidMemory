@@ -9,7 +9,9 @@ namespace UnityStandardAssets._2D
 		[SerializeField] protected float m_JumpForce;                  // Amount of force added when the player jumps.
 		[Range(0, 1)] [SerializeField] protected float m_CrouchSpeed = .36f;  // Amount of maxSpeed applied to crouching movement. 1 = 100%
 		[SerializeField] protected LayerMask m_WhatIsGround;                  // A mask determining what is ground to the character
-		
+
+
+		private int lifePoints = 10;
 		protected bool m_AirControl = true;                 // Whether or not a player can steer while jumping;
 		protected Transform m_GroundCheck;    // A position marking where to check if the player is grounded.
 		protected const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
@@ -20,6 +22,7 @@ namespace UnityStandardAssets._2D
 		protected Rigidbody2D m_Rigidbody2D;
 		protected bool m_FacingRight = true;  // For determining which way the player is currently facing.
 		protected bool m_Jump;
+		protected bool isControlled = true;
 
 		private void Awake()
         {
@@ -42,5 +45,6 @@ namespace UnityStandardAssets._2D
         }
 
 		abstract public void Move();
+
     }
 }
