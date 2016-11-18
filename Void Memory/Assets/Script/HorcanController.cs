@@ -49,6 +49,7 @@ namespace UnityStandardAssets._2D
 			// Read the inputs.
 			bool crouch = Input.GetKey(KeyCode.S);
 			float move = Input.GetAxis("HorizontalHorcan");
+			
 			// If crouching, check to see if the character can stand up
 			if (!crouch && m_Anim.GetBool("Crouch"))
             {
@@ -95,7 +96,7 @@ namespace UnityStandardAssets._2D
                 }
 			}
 
-			if (Input.GetKeyDown(KeyCode.Space) && m_timerJump < 0.3f)
+			if (Input.GetKeyDown(KeyCode.E) && m_timerJump < 0.3f)
 			{
 				m_Rigidbody2D.gravityScale = 0;
 				m_timerJump += 0.01f;
