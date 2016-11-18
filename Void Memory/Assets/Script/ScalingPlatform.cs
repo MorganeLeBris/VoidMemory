@@ -8,6 +8,7 @@ public class ScalingPlatform : MonoBehaviour {
     bool grandir;
     public float scale;
     public bool right;
+    public Vector2 init;
     // Use this for initialization
     void Start () {
         t = 0;
@@ -21,31 +22,36 @@ public class ScalingPlatform : MonoBehaviour {
 
         if (grandir)
         {
-            t += Time.deltaTime * 0.3f ;
+            t += 0.05f ;
             transform.localScale = Vector2.Lerp(endScale, startScale, t);
 
-           // if(right)
-          //      transform.Translate(new Vector3(-Time.deltaTime, 0, 0));
-          //  else
-          //      transform.Translate(new Vector3(Time.deltaTime, 0, 0));
-            if (t > 1)
+         //   if(right)
+          //      transform.Translate(new Vector3(-t/10f, 0, 0));
+         //   else
+          //      transform.Translate(new Vector3(t/10f, 0, 0));
+            if (t >= 1)
             {
                 grandir = false;
-            
+                t = 1;
             }
                 
         }else
         {
-            t -= Time.deltaTime * 0.3f;
-            transform.localScale = Vector2.Lerp( endScale,startScale, t);
+            t -=  0.05f;
+            transform.localScale = Vector2.Lerp(endScale,startScale, t);
 
-         //   if(right)
-          //      transform.Translate(new Vector3(Time.deltaTime, 0, 0));
-          //  else
-          //      transform.Translate(new Vector3(-Time.deltaTime, 0, 0));
+        //    if(right)
+        //        transform.Translate(new Vector3(t/10f, 0, 0));
+         //   else
+         //       transform.Translate(new Vector3(-t/10f, 0, 0));
             if (t < 0)
+            {
                 grandir = true;
-        }
+                transform.localPosition = new Vector3(init.x, init.y, 0);
+                t = 0;
+             }
+         }
+                
           
         
 	}
