@@ -11,7 +11,7 @@ public class Player1Behaviour : MonoBehaviour {
     public Text reponse;
     public GameObject masque;
     public bool canMove = true;
-    private int num = 0;
+    private int num = 1;
     private string str;
     private int i = 0;
 
@@ -231,10 +231,6 @@ public class Player1Behaviour : MonoBehaviour {
 
     void Movement()
     {
-		//float inputX = Input.GetAxis("HorizontalPlayer");
-		//float inputY = Input.GetAxis("VerticalPlayer");
-
-		//GetComponent<Rigidbody2D>().velocity = new Vector2(inputX * speed, inputY * speed);
 
 		if (Input.GetKey(KeyCode.Z))
 		{
@@ -257,16 +253,16 @@ public class Player1Behaviour : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-		if (num == 0)
-		{
-			if (other.gameObject.GetComponent<Text>().text != "") num++;
-		}
-        else if (num == 1)
+        if (num == 1)
         {
-            str = other.gameObject.GetComponent<Text>().text;
-            animateText(str);
-            Destroy(other.gameObject);
-            num++;
+            if (other.gameObject.GetComponent<Text>().text != "")
+            {
+                str = other.gameObject.GetComponent<Text>().text;
+                animateText(str);
+                Destroy(other.gameObject);
+                num++;
+            }
+              
         }
         else if (num == 2)
         {
