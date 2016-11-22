@@ -20,12 +20,11 @@ public class PlatformController : RaycastController
 
     private List<PassengerMovement> passengerMovement;
     private Dictionary<Transform, Controller2D> passengerDictionary = new Dictionary<Transform, Controller2D>();
-    public bool inMoove;
-
+    public bool inmoove;
     public override void Start()
     {
         base.Start();
-        
+
         globalWaypoints = new Vector3[localWaypoints.Length];
         for (int i = 0; i < globalWaypoints.Length; i++)
         {
@@ -35,18 +34,18 @@ public class PlatformController : RaycastController
 
     private void Update()
     {
-        if (inMoove) { 
-        UpdateRaycastOrigins();
+        if (inmoove)
+        {
+            UpdateRaycastOrigins();
 
-        Vector3 velocity = CalculatePlatformMovement();
+            Vector3 velocity = CalculatePlatformMovement();
 
-        CalculatePassengerMovement(velocity);
-        
-       
-        MovePassengers(true);
-        transform.Translate(velocity);
-        MovePassengers(false);
-         }
+            CalculatePassengerMovement(velocity);
+
+            MovePassengers(true);
+            transform.Translate(velocity);
+            MovePassengers(false);
+        }
     }
 
     private float Ease(float x)
@@ -57,43 +56,39 @@ public class PlatformController : RaycastController
 
     private Vector3 CalculatePlatformMovement()
     {
-        if (inMoove)
+        if (Time.time < nextMoveTime)
         {
-            if (Time.time < nextMoveTime)
+            return Vector3.zero;
+        }
+
+        fromWaypointIndex %= globalWaypoints.Length;
+        int toWaypointIndex = (fromWaypointIndex + 1) % globalWaypoints.Length;
+        float distanceBetweenWaypoints = Vector3.Distance(globalWaypoints[fromWaypointIndex], globalWaypoints[toWaypointIndex]);
+        percentBetweenWaypoints += Time.deltaTime * speed / distanceBetweenWaypoints;
+
+        percentBetweenWaypoints = Mathf.Clamp01(percentBetweenWaypoints);
+        float easedPercentBetweenWaypoints = Ease(percentBetweenWaypoints);
+
+        Vector3 newPos = Vector3.Lerp(globalWaypoints[fromWaypointIndex], globalWaypoints[toWaypointIndex], easedPercentBetweenWaypoints);
+
+        if (percentBetweenWaypoints >= 1)
+        {
+            percentBetweenWaypoints = 0f;
+            fromWaypointIndex++;
+
+            if (!cyclic)
             {
-                return Vector3.zero;
-            }
-
-            fromWaypointIndex %= globalWaypoints.Length;
-            int toWaypointIndex = (fromWaypointIndex + 1) % globalWaypoints.Length;
-            float distanceBetweenWaypoints = Vector3.Distance(globalWaypoints[fromWaypointIndex], globalWaypoints[toWaypointIndex]);
-            percentBetweenWaypoints += Time.deltaTime * speed / distanceBetweenWaypoints;
-
-            percentBetweenWaypoints = Mathf.Clamp01(percentBetweenWaypoints);
-            float easedPercentBetweenWaypoints = Ease(percentBetweenWaypoints);
-
-            Vector3 newPos = Vector3.Lerp(globalWaypoints[fromWaypointIndex], globalWaypoints[toWaypointIndex], easedPercentBetweenWaypoints);
-
-            if (percentBetweenWaypoints >= 1)
-            {
-                percentBetweenWaypoints = 0f;
-                fromWaypointIndex++;
-
-                if (!cyclic)
+                if (fromWaypointIndex >= globalWaypoints.Length - 1)
                 {
-                    if (fromWaypointIndex >= globalWaypoints.Length - 1)
-                    {
-                        fromWaypointIndex = 0;
-                        System.Array.Reverse(globalWaypoints);
-                    }
+                    fromWaypointIndex = 0;
+                    System.Array.Reverse(globalWaypoints);
                 }
-
-                nextMoveTime = Time.time + waitTime;
             }
 
-            return newPos - transform.position;
-        }else
-            return  transform.position;
+            nextMoveTime = Time.time + waitTime;
+        }
+
+        return newPos - transform.position;
     }
 
     private void MovePassengers(bool beforeMovePlatform)
@@ -226,9 +221,9 @@ public class PlatformController : RaycastController
             }
         }
     }
-    
+
     public void Moove()
     {
-        inMoove = true;
+        inmoove = true;
     }
- }
+}
