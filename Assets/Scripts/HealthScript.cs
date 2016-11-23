@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class HealthScript : MonoBehaviour {
 	/// <summary>
@@ -8,9 +9,24 @@ public class HealthScript : MonoBehaviour {
 	public int hp = 1;
 
 	/// <summary>
+	/// Text to display hp
+	/// </summary>
+	public Text hpdisplay;
+
+	/// <summary>
 	/// Enemy or player?
 	/// </summary>
 	public bool isEnemy = true;
+
+
+	///<summary>
+	/// Use of the awake method just to display Player Hp at the beginning
+	/// </summary>
+	void Awake(){
+		if (hpdisplay != null) {
+			hpdisplay.text = hp.ToString();
+		}
+	}
 
 	/// <summary>
 	/// Inflicts damage and check if the object should be destroyed
@@ -24,6 +40,10 @@ public class HealthScript : MonoBehaviour {
 		{
 			// Dead!
 			Destroy(gameObject);
+		}
+
+		if (hpdisplay != null) {
+			hpdisplay.text = hp.ToString();
 		}
 	}
 
