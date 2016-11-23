@@ -43,7 +43,7 @@ public class Masque : MonoBehaviour
         ).y;
 
         var bottomBorder = Camera.main.ViewportToWorldPoint(
-            new Vector3(0, 0.78f, dist)
+            new Vector3(0, 0.79f, dist)
         ).y;
 
         transform.position = new Vector3(
