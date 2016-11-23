@@ -20,7 +20,7 @@ ExportedObj/
 
 
 # Unity3D generated meta files
-*.pidb.meta
+
 
 # Unity3D Generated File On Crash Reports
 sysinfo.txt
@@ -33,4 +33,4 @@ Void Memory/ProjectSettings/EditorBuildSettings.asset
 Void Memory/ProjectSettings/InputManager.asset
 Void Memory/ProjectSettings/ProjectSettings.asset
 Void Memory/ProjectSettings/TagManager.asset
-*.meta
+
