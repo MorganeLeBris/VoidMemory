@@ -64,7 +64,7 @@ public class AffichageHist4 : MonoBehaviour
             j++;
         }
 
-        if (i == strComplete.Length && Input.GetKeyDown(KeyCode.Space))
+        if(i == strComplete.Length && Input.GetKeyDown(KeyCode.Space))
         {
             if (tabBuzz.Length != k || tabHorcan.Length != l)
             {
