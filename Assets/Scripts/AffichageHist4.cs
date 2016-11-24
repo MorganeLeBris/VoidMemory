@@ -26,7 +26,7 @@ public class AffichageHist4 : MonoBehaviour
         CanevaBuzz.SetActive(value);
         CanevaHorcan.SetActive(!value);
         strComplete = tabBuzz[k];
-        paroleBuzz1.Play();
+        //paroleBuzz1.Play();
         k++;
     }
 
@@ -50,11 +50,11 @@ public class AffichageHist4 : MonoBehaviour
             {
                 if (value)
                 {
-                    paroleBuzz1.Pause();
+                    //paroleBuzz1.Pause();
                 }
                 else
                 {
-                    paroleHorcan1.Pause();
+                    //paroleHorcan1.Pause();
                 }
             }
             j = 0;
@@ -75,14 +75,14 @@ public class AffichageHist4 : MonoBehaviour
                 if (k > l)
                 {
                     strComplete = tabHorcan[l];
-                    paroleHorcan1.Play();
+                    //paroleHorcan1.Play();
                     l++;
                     TextBuzz.text = "";
                 }
                 else
                 {
                     strComplete = tabBuzz[k];
-                    paroleBuzz1.Play();
+                    //paroleBuzz1.Play();
                     k++;
                     TextHorcan.text = "";
                 }
