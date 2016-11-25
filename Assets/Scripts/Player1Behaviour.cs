@@ -255,7 +255,7 @@ public class Player1Behaviour : MonoBehaviour {
     {
         if (num == 1)
         {
-            if (other.gameObject.GetComponent<Text>().text != "")
+            if (other.gameObject.GetComponent<Text>() != null)
             {
                 str = other.gameObject.GetComponent<Text>().text;
                 animateText(str);
