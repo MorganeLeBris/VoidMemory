@@ -16,6 +16,16 @@ public class WeaponScript : MonoBehaviour {
 	/// </summary>
 	public float shootingRate = 0.25f;
 
+	/// <summary>
+	/// x offset for shots
+	/// </summary>
+	public float shootDecal;
+
+	/// <summary>
+	/// AudioSource for shooting sounds
+	/// </summary>
+	private AudioSource audio;
+
 	//--------------------------------
 	// 2 - Cooldown
 	//--------------------------------
@@ -24,7 +34,10 @@ public class WeaponScript : MonoBehaviour {
 
 	void Start()
 	{
-		shootCooldown = 0f;
+		shootCooldown = 0.15f;
+		if (audio == null) {
+			audio = GetComponent<AudioSource>();
+		}
 	}
 
 	void Update()
@@ -50,9 +63,13 @@ public class WeaponScript : MonoBehaviour {
 
 			// Create a new shot
 			var shotTransform = Instantiate(shotPrefab) as Transform;
+			if(audio != null)
+				audio.Play ();
 
 			// Assign position
-			shotTransform.position = transform.position;
+			Vector3 temppos = transform.position;
+			temppos.x += shootDecal;
+			shotTransform.position = temppos;
 
 			// The is enemy property
 			ShotScript shot = shotTransform.gameObject.GetComponent<ShotScript>();

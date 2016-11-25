@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class HealthScript : MonoBehaviour {
 	/// <summary>
@@ -18,6 +19,7 @@ public class HealthScript : MonoBehaviour {
 	/// </summary>
 	public bool isEnemy = true;
 
+	bool paused = false;
 
 	///<summary>
 	/// Use of the awake method just to display Player Hp at the beginning
@@ -39,7 +41,12 @@ public class HealthScript : MonoBehaviour {
 		if (hp <= 0)
 		{
 			// Dead!
-			Destroy(gameObject);
+			if (!isEnemy) {
+				paused = togglePause ();
+				Debug.Log (paused);
+			} else {
+				Destroy(gameObject);
+			}
 		}
 
 		if (hpdisplay != null) {
@@ -61,6 +68,30 @@ public class HealthScript : MonoBehaviour {
 				// Destroy the shot
 				Destroy(shot.gameObject); // Remember to always target the game object, otherwise you will just remove the script
 			}
+		}
+	}
+
+	void OnGUI()
+	{
+		if(paused)
+		{
+			GUI.Label(new Rect(Screen.width/2-50, Screen.height/2-10, 100, 20),"Vous êtes morts!");
+			if (GUI.Button (new Rect (Screen.width / 2 - 40, Screen.height / 2 + 10, 60, 20), "Quitter"))
+				SceneManager.LoadScene("mainMenu");
+		}
+	}
+
+	bool togglePause()
+	{
+		if(Time.timeScale == 0f)
+		{
+			Time.timeScale = 1f;
+			return(false);
+		}
+		else
+		{
+			Time.timeScale = 0f;
+			return(true);    
 		}
 	}
 }
