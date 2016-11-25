@@ -8,7 +8,7 @@ public class ScalingScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         SpriteRenderer sr = GetComponent<SpriteRenderer>();
-        transform.localScale = maincamera.scalingFactor;
+        //transform.localScale = maincamera.scalingFactor;
 	}
 	
 	// Update is called once per frame
