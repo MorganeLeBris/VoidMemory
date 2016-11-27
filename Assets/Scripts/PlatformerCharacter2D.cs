@@ -24,6 +24,7 @@ namespace UnityStandardAssets._2D
 		protected bool m_FacingRight = true;  // For determining which way the player is currently facing.
 		protected bool m_Jump;
 		protected bool isControlled = true;
+		protected bool onIce = false;
 
 		private void Awake()
         {
@@ -53,6 +54,14 @@ namespace UnityStandardAssets._2D
 			float fadeTime = GameObject.Find("FadingBetweenScenesObject").GetComponent<Fading>().BeginFade(1);
 			yield return new WaitForSeconds(fadeTime);
 			SceneManager.LoadScene(scene, LoadSceneMode.Single);
+		}
+
+		public void OnCollisionEnter2D(Collision2D collision)
+		{
+			if(collision.gameObject.tag == "IceFloor")
+			{
+				onIce = true;
+			}
 		}
 
 		public void increaseHealth()
