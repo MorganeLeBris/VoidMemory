@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace UnityStandardAssets._2D
 {
@@ -11,7 +12,7 @@ namespace UnityStandardAssets._2D
 		[SerializeField] protected LayerMask m_WhatIsGround;                  // A mask determining what is ground to the character
 
 
-		private int lifePoints = 10;
+		private float lifePoints = 3f;
 		protected bool m_AirControl = true;                 // Whether or not a player can steer while jumping;
 		protected Transform m_GroundCheck;    // A position marking where to check if the player is grounded.
 		protected const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
@@ -23,6 +24,7 @@ namespace UnityStandardAssets._2D
 		protected bool m_FacingRight = true;  // For determining which way the player is currently facing.
 		protected bool m_Jump;
 		protected bool isControlled = true;
+		protected bool dead;
 
 		private void Awake()
         {
@@ -45,6 +47,27 @@ namespace UnityStandardAssets._2D
         }
 
 		abstract public void Move();
+
+		public void restartLevel()
+		{
+			int scene = SceneManager.GetActiveScene().buildIndex;
+			SceneManager.LoadScene(scene, LoadSceneMode.Single);
+		}
+
+		public bool touchesWater(Collider2D[] others)
+		{
+			for(int i = 0; i < others.Length; i++)
+			{
+				if (others[i].gameObject.layer == 4)
+					return true;
+			}
+			return false;
+		}
+
+		public bool isDead()
+		{
+			return dead;
+		}
 
     }
 }

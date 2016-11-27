@@ -8,16 +8,6 @@ namespace UnityStandardAssets._2D
 		private bool m_bigJump = false;
 		private float m_timerJump = 0f;
 
-        private void Awake()
-        {
-            // Setting up references.
-            m_GroundCheck = transform.Find("GroundCheck");
-            m_CeilingCheck = transform.Find("CeilingCheck");
-            m_Anim = GetComponent<Animator>();
-            m_Rigidbody2D = GetComponent<Rigidbody2D>();
-        }
-
-
         private void FixedUpdate()
         {
             m_Grounded = false;
@@ -25,21 +15,26 @@ namespace UnityStandardAssets._2D
 			// The player is grounded if a circlecast to the groundcheck position hits anything designated as ground
 			// This can be done using layers instead but Sample Assets will not overwrite your project settings.
 			Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
-            for (int i = 0; i < colliders.Length; i++)
-            {
-                if (colliders[i].gameObject != gameObject && !m_bigJump)
-				{
-                    m_Grounded = true;
-				}
-            }
-            m_Anim.SetBool("Ground", m_Grounded);
-
-            // Set the vertical animation
-            m_Anim.SetFloat("vSpeed", m_Rigidbody2D.velocity.y);
-			if (!m_Jump)
+			if (touchesWater(colliders))
+				restartLevel();
+			else
 			{
-				// Read the jump input in Update so button presses aren't missed.
-				m_Jump = Input.GetButtonDown("JumpHorcan");
+				for (int i = 0; i < colliders.Length; i++)
+				{
+					if (colliders[i].gameObject != gameObject && !m_bigJump)
+					{
+						m_Grounded = true;
+					}
+				}
+				m_Anim.SetBool("Ground", m_Grounded);
+
+				// Set the vertical animation
+				m_Anim.SetFloat("vSpeed", m_Rigidbody2D.velocity.y);
+				if (!m_Jump)
+				{
+					// Read the jump input in Update so button presses aren't missed.
+					m_Jump = Input.GetButtonDown("JumpHorcan");
+				}
 			}
 		}
 

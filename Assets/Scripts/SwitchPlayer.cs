@@ -9,13 +9,17 @@ public class SwitchPlayer : MonoBehaviour {
 	void Start () {
 		cameraBuzz.enabled = true;
 		cameraHorcan.enabled = false;
+		cameraHorcan.GetComponent<AudioListener>().enabled = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKeyDown(KeyCode.Tab))
 		{
+
 			cameraBuzz.enabled = !cameraBuzz.enabled;
+			cameraBuzz.GetComponent<AudioListener>().enabled = !cameraBuzz.GetComponent<AudioListener>().enabled;
+			cameraHorcan.GetComponent<AudioListener>().enabled = !cameraHorcan.GetComponent<AudioListener>().enabled;
 			cameraHorcan.enabled = !cameraHorcan.enabled;
 		}
 	}

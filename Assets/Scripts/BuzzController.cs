@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace UnityStandardAssets._2D
 {
@@ -16,19 +15,27 @@ namespace UnityStandardAssets._2D
 			// This can be done using layers instead but Sample Assets will not overwrite your project settings.
 			
 			Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
-			for (int i = 0; i < colliders.Length; i++)
+			if (touchesWater(colliders))
 			{
-				if (colliders[i].gameObject != gameObject && !m_jetpackActive)
-					m_Grounded = true;
+				Debug.Log("touchesWater");
+				restartLevel();
 			}
-			m_Anim.SetBool("Ground", m_Grounded);
-
-			// Set the vertical animation
-			m_Anim.SetFloat("vSpeed", m_Rigidbody2D.velocity.y);
-			if (!m_Jump)
+			else
 			{
-				// Read the jump input in Update so button presses aren't missed.
-				m_Jump = Input.GetButtonDown("JumpBuzz");
+				for (int i = 0; i < colliders.Length; i++)
+				{
+					if (colliders[i].gameObject != gameObject && !m_jetpackActive)
+						m_Grounded = true;
+				}
+				m_Anim.SetBool("Ground", m_Grounded);
+
+				// Set the vertical animation
+				m_Anim.SetFloat("vSpeed", m_Rigidbody2D.velocity.y);
+				if (!m_Jump)
+				{
+					// Read the jump input in Update so button presses aren't missed.
+					m_Jump = Input.GetButtonDown("JumpBuzz");
+				}
 			}
 		}
 

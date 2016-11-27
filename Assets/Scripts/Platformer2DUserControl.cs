@@ -24,16 +24,7 @@ namespace UnityStandardAssets._2D
         private void FixedUpdate()
         {
             // Pass all parameters to the character control script.
-			
             m_Character.Move();
         }
-
-		void OnTriggerEnter(Collider other)
-		{
-			if (other.gameObject.CompareTag("Pick Up"))
-			{
-				other.gameObject.SetActive(false);
-			}
-		}
 	}
 }
