@@ -1,0 +1,3055 @@
+fileFormatVersion: 2
+guid: 185ea497aac14ad45b7d74f41face81f
+timeCreated: 1480207810
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: zachunarmored_0
+    21300002: zachunarmored_1
+    21300004: zachunarmored_2
+    21300006: zachunarmored_3
+    21300008: zachunarmored_4
+    21300010: zachunarmored_5
+    21300012: zachunarmored_6
+    21300014: zachunarmored_7
+    21300016: zachunarmored_8
+    21300018: zachunarmored_9
+    21300020: zachunarmored_10
+    21300022: zachunarmored_11
+    21300024: zachunarmored_12
+    21300026: zachunarmored_13
+    21300028: zachunarmored_14
+    21300030: zachunarmored_15
+    21300032: zachunarmored_16
+    21300034: zachunarmored_17
+    21300036: zachunarmored_18
+    21300038: zachunarmored_19
+    21300040: zachunarmored_20
+    21300042: zachunarmored_21
+    21300044: zachunarmored_22
+    21300046: zachunarmored_23
+    21300048: zachunarmored_24
+    21300050: zachunarmored_25
+    21300052: zachunarmored_26
+    21300054: zachunarmored_27
+    21300056: zachunarmored_28
+    21300058: zachunarmored_29
+    21300060: zachunarmored_30
+    21300062: zachunarmored_31
+    21300064: zachunarmored_32
+    21300066: zachunarmored_33
+    21300068: zachunarmored_34
+    21300070: zachunarmored_35
+    21300072: zachunarmored_36
+    21300074: zachunarmored_37
+    21300076: zachunarmored_38
+    21300078: zachunarmored_39
+    21300080: zachunarmored_40
+    21300082: zachunarmored_41
+    21300084: zachunarmored_42
+    21300086: zachunarmored_43
+    21300088: zachunarmored_44
+    21300090: zachunarmored_45
+    21300092: zachunarmored_46
+    21300094: zachunarmored_47
+    21300096: zachunarmored_48
+    21300098: zachunarmored_49
+    21300100: zachunarmored_50
+    21300102: zachunarmored_51
+    21300104: zachunarmored_52
+    21300106: zachunarmored_53
+    21300108: zachunarmored_54
+    21300110: zachunarmored_55
+    21300112: zachunarmored_56
+    21300114: zachunarmored_57
+    21300116: zachunarmored_58
+    21300118: zachunarmored_59
+    21300120: zachunarmored_60
+    21300122: zachunarmored_61
+    21300124: zachunarmored_62
+    21300126: zachunarmored_63
+    21300128: zachunarmored_64
+    21300130: zachunarmored_65
+    21300132: zachunarmored_66
+    21300134: zachunarmored_67
+    21300136: zachunarmored_68
+    21300138: zachunarmored_69
+    21300140: zachunarmored_70
+    21300142: zachunarmored_71
+    21300144: zachunarmored_72
+    21300146: zachunarmored_73
+    21300148: zachunarmored_74
+    21300150: zachunarmored_75
+    21300152: zachunarmored_76
+    21300154: zachunarmored_77
+    21300156: zachunarmored_78
+    21300158: zachunarmored_79
+    21300160: zachunarmored_80
+    21300162: zachunarmored_81
+    21300164: zachunarmored_82
+    21300166: zachunarmored_83
+    21300168: zachunarmored_84
+    21300170: zachunarmored_85
+    21300172: zachunarmored_86
+    21300174: zachunarmored_87
+    21300176: zachunarmored_88
+    21300178: zachunarmored_89
+    21300180: zachunarmored_90
+    21300182: zachunarmored_91
+    21300184: zachunarmored_92
+    21300186: zachunarmored_93
+    21300188: zachunarmored_94
+    21300190: zachunarmored_95
+    21300192: zachunarmored_96
+    21300194: zachunarmored_97
+    21300196: zachunarmored_98
+    21300198: zachunarmored_99
+    21300200: zachunarmored_100
+    21300202: zachunarmored_101
+    21300204: zachunarmored_102
+    21300206: zachunarmored_103
+    21300208: zachunarmored_104
+    21300210: zachunarmored_105
+    21300212: zachunarmored_106
+    21300214: zachunarmored_107
+    21300216: zachunarmored_108
+    21300218: zachunarmored_109
+    21300220: zachunarmored_110
+    21300222: zachunarmored_111
+    21300224: zachunarmored_112
+    21300226: zachunarmored_113
+    21300228: zachunarmored_114
+    21300230: zachunarmored_115
+    21300232: zachunarmored_116
+    21300234: zachunarmored_117
+    21300236: zachunarmored_118
+    21300238: zachunarmored_119
+    21300240: zachunarmored_120
+    21300242: zachunarmored_121
+    21300244: zachunarmored_122
+    21300246: zachunarmored_123
+    21300248: zachunarmored_124
+    21300250: zachunarmored_125
+    21300252: zachunarmored_126
+    21300254: zachunarmored_127
+    21300256: zachunarmored_128
+    21300258: zachunarmored_129
+    21300260: zachunarmored_130
+    21300262: zachunarmored_131
+    21300264: zachunarmored_132
+    21300266: zachunarmored_133
+    21300268: zachunarmored_134
+    21300270: zachunarmored_135
+    21300272: zachunarmored_136
+    21300274: zachunarmored_137
+    21300276: zachunarmored_138
+    21300278: zachunarmored_139
+    21300280: zachunarmored_140
+    21300282: zachunarmored_141
+    21300284: zachunarmored_142
+    21300286: zachunarmored_143
+    21300288: zachunarmored_144
+    21300290: zachunarmored_145
+    21300292: zachunarmored_146
+    21300294: zachunarmored_147
+    21300296: zachunarmored_148
+    21300298: zachunarmored_149
+    21300300: zachunarmored_150
+    21300302: zachunarmored_151
+    21300304: zachunarmored_152
+    21300306: zachunarmored_153
+    21300308: zachunarmored_154
+    21300310: zachunarmored_155
+    21300312: zachunarmored_156
+    21300314: zachunarmored_157
+    21300316: zachunarmored_158
+    21300318: zachunarmored_159
+    21300320: zachunarmored_160
+    21300322: zachunarmored_161
+    21300324: zachunarmored_162
+    21300326: zachunarmored_163
+    21300328: zachunarmored_164
+    21300330: zachunarmored_165
+    21300332: zachunarmored_166
+    21300334: zachunarmored_167
+    21300336: zachunarmored_168
+    21300338: zachunarmored_169
+    21300340: zachunarmored_170
+    21300342: zachunarmored_171
+    21300344: zachunarmored_172
+    21300346: zachunarmored_173
+    21300348: zachunarmored_174
+    21300350: zachunarmored_175
+    21300352: zachunarmored_176
+    21300354: zachunarmored_177
+    21300356: zachunarmored_178
+    21300358: zachunarmored_179
+    21300360: zachunarmored_180
+    21300362: zachunarmored_181
+    21300364: zachunarmored_182
+    21300366: zachunarmored_183
+    21300368: zachunarmored_184
+    21300370: zachunarmored_185
+    21300372: zachunarmored_186
+    21300374: zachunarmored_187
+    21300376: zachunarmored_188
+    21300378: zachunarmored_189
+    21300380: zachunarmored_190
+    21300382: zachunarmored_191
+    21300384: zachunarmored_192
+    21300386: zachunarmored_193
+    21300388: zachunarmored_194
+    21300390: zachunarmored_195
+    21300392: zachunarmored_196
+    21300394: zachunarmored_197
+    21300396: zachunarmored_198
+    21300398: zachunarmored_199
+    21300400: zachunarmored_200
+    21300402: zachunarmored_201
+    21300404: zachunarmored_202
+    21300406: zachunarmored_203
+    21300408: zachunarmored_204
+    21300410: zachunarmored_205
+    21300412: zachunarmored_206
+    21300414: zachunarmored_207
+    21300416: zachunarmored_208
+    21300418: zachunarmored_209
+    21300420: zachunarmored_210
+    21300422: zachunarmored_211
+    21300424: zachunarmored_212
+    21300426: zachunarmored_213
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zachunarmored_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 524
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 524
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_2
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 521
+        width: 8
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_3
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 521
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_4
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 521
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_5
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 521
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_6
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 521
+        width: 32
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_7
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 521
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_8
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 521
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_9
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 535
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_10
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 535
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_11
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 535
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_12
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 534
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_13
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 503
+        width: 26
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_14
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 507
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_15
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 508
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_16
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 504
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_17
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 504
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_18
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 504
+        width: 19
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_19
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 503
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_20
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 504
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_21
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 503
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_22
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 516
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_23
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 516
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_24
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 516
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_25
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 516
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_26
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 516
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_27
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 515
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_28
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 475
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_29
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 475
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_30
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 475
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_31
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 475
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_32
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 475
+        width: 34
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_33
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 475
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_34
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 475
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_35
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 498
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_36
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 499
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_37
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 497
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_38
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 497
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_39
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 496
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_40
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 495
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_41
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 431
+        width: 44
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_42
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 431
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_43
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 387
+        width: 62
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_44
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 471
+        width: 42
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_45
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 450
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_46
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 446
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_47
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 411
+        width: 37
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_48
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 447
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_49
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 445
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_50
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 444
+        width: 36
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_51
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 431
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_52
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 430
+        width: 36
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_53
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 429
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_54
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 429
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_55
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 429
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_56
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 429
+        width: 31
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_57
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 429
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_58
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 429
+        width: 28
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_59
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 429
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_60
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 429
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_61
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 429
+        width: 37
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_62
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 425
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_63
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 392
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_64
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 427
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_65
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 375
+        width: 28
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_66
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 374
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_67
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 374
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_68
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 373
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_69
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 375
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_70
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 376
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_71
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 375
+        width: 48
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_72
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 375
+        width: 44
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_73
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 375
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_74
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 376
+        width: 48
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_75
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 378
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_76
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 379
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_77
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 393
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_78
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 384
+        width: 34
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_79
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 331
+        width: 48
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_80
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 331
+        width: 88
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_81
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 331
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_82
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 331
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_83
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 331
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_84
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 331
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_85
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 331
+        width: 43
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_86
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 332
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_87
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 332
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_88
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 297
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_89
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 331
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_90
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 334
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_91
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 273
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_92
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 276
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_93
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 275
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_94
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 272
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_95
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 283
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_96
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 301
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_97
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 275
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_98
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 268
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_99
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 274
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_100
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 274
+        width: 36
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_101
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 276
+        width: 39
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_102
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 229
+        width: 125
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_103
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 231
+        width: 128
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_104
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 215
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_105
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 215
+        width: 40
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_106
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 215
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_107
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 215
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_108
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 209
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_109
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 220
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_110
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 256
+        width: 18
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_111
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 258
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_112
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 258
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_113
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 257
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_114
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 256
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_115
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 215
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_116
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 215
+        width: 41
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_117
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 215
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_118
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 216
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_119
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 220
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_120
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 168
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_121
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 168
+        width: 47
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_122
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 169
+        width: 39
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_123
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 169
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_124
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 170
+        width: 39
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_125
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 172
+        width: 38
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_126
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 171
+        width: 40
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_127
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 170
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_128
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 169
+        width: 46
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_129
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 165
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_130
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 199
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_131
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 199
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_132
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 199
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_133
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 199
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_134
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 196
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_135
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 195
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_136
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 197
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_137
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 192
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_138
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 191
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_139
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 192
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_140
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 203
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_141
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 170
+        width: 42
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_142
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 169
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_143
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 186
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_144
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 171
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_145
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 171
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_146
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 171
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_147
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 171
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_148
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 173
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_149
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 174
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_150
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 175
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_151
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 121
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_152
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 121
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_153
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 121
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_154
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 121
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_155
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 121
+        width: 39
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_156
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 121
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_157
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 121
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_158
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 121
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_159
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 121
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_160
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 121
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_161
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 122
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_162
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 159
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_163
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 162
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_164
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 130
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_165
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 131
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_166
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 131
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_167
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 131
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_168
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 125
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_169
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 132
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_170
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 131
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_171
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 133
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_172
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 112
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_173
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 118
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_174
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 118
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_175
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 119
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_176
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 95
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_177
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 87
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_178
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 88
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_179
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 88
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_180
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 88
+        width: 37
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_181
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 72
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_182
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 72
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_183
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 71
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_184
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 72
+        width: 43
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_185
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 72
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_186
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 73
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_187
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 74
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_188
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 76
+        width: 41
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_189
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 101
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_190
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 104
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_191
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 75
+        width: 46
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_192
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 72
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_193
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 71
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_194
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 72
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_195
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 14
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_196
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 11
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_197
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 10
+        width: 39
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_198
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 10
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_199
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 4
+        width: 173
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_200
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 62
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_201
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 14
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_202
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 14
+        width: 39
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_203
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 14
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_204
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 14
+        width: 37
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_205
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 14
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_206
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 12
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_207
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 16
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_208
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 17
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_209
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 51
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_210
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 45
+        width: 25
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_211
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 31
+        width: 25
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_212
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 21
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: zachunarmored_213
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 5
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
