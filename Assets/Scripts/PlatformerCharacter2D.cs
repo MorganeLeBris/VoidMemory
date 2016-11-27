@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,7 +9,6 @@ namespace UnityStandardAssets._2D
     {
 		[SerializeField] protected float m_MaxSpeed = 10f;                    // The fastest the player can travel in the x axis.
 		[SerializeField] protected float m_JumpForce;                  // Amount of force added when the player jumps.
-		[Range(0, 1)] [SerializeField] protected float m_CrouchSpeed = .36f;  // Amount of maxSpeed applied to crouching movement. 1 = 100%
 		[SerializeField] protected LayerMask m_WhatIsGround;                  // A mask determining what is ground to the character
 
 
@@ -24,7 +24,6 @@ namespace UnityStandardAssets._2D
 		protected bool m_FacingRight = true;  // For determining which way the player is currently facing.
 		protected bool m_Jump;
 		protected bool isControlled = true;
-		protected bool dead;
 
 		private void Awake()
         {
@@ -48,10 +47,34 @@ namespace UnityStandardAssets._2D
 
 		abstract public void Move();
 
-		public void restartLevel()
+		public IEnumerator restartLevel()
 		{
 			int scene = SceneManager.GetActiveScene().buildIndex;
+			float fadeTime = GameObject.Find("FadingBetweenScenesObject").GetComponent<Fading>().BeginFade(1);
+			yield return new WaitForSeconds(fadeTime);
 			SceneManager.LoadScene(scene, LoadSceneMode.Single);
+		}
+
+		public void increaseHealth()
+		{
+			lifePoints++;
+			if (lifePoints > 3f)
+				lifePoints = 3f;
+		}
+
+		public void decreaseHealth()
+		{
+			lifePoints--;
+			if (lifePoints < 0f)
+			{
+				restartLevel();
+				lifePoints = 3f;
+			}
+		}
+
+		private void onDead()
+		{
+			throw new NotImplementedException();
 		}
 
 		public bool touchesWater(Collider2D[] others)
@@ -63,11 +86,5 @@ namespace UnityStandardAssets._2D
 			}
 			return false;
 		}
-
-		public bool isDead()
-		{
-			return dead;
-		}
-
     }
 }

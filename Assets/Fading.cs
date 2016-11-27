@@ -20,7 +20,7 @@ public class Fading : MonoBehaviour {
 		GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), fadeOutTexture);
 	}
 
-	public float Beginfade (int direction)
+	public float BeginFade (int direction)
 	{
 		fadeDir = direction;
 		return (fadeSpeed);
@@ -28,6 +28,6 @@ public class Fading : MonoBehaviour {
 
 	private void OnLevelWasLoaded(int level)
 	{
-		Beginfade(-1);
+		BeginFade(-1);
 	}
 }
