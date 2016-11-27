@@ -6,6 +6,7 @@ public class PauseScript : MonoBehaviour
 {
 	bool paused = false;
 	public GUIStyle style;
+	public GUIStyle style2;
 
 	void Update()
 	{
@@ -17,7 +18,7 @@ public class PauseScript : MonoBehaviour
 	{
 		if(paused)
 		{
-			GUI.Label(new Rect(Screen.width/2-135, Screen.height/2-20, 100, 40),"Jeu en pause!",style);
+			GUI.Label(new Rect(Screen.width/2-120, Screen.height/2-20, 100, 40),"Jeu en pause!",style);
 			if (GUI.Button (new Rect (Screen.width/2+10, Screen.height/2+30, 100, 20), "Quitter"))
 				Application.Quit ();
 			if (GUI.Button (new Rect (Screen.width/2-110, Screen.height/2+30, 100, 20), "Menu principal"))

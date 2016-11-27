@@ -11,7 +11,7 @@ public class AffichageHist1 : MonoBehaviour {
     private string strComplete;
     public AudioSource voix;
 	void Start () {
-        voix.Play();
+        //voix.Play();
         strComplete = "C’était un soir comme les autres pour tous les habitants de la planète Terre mais pas pour Buzz, passionné par les astres qui vivait dans une campagne au Nord du Canada. Il savait que ce soir vers minuit de nombreuses étoiles filantes allaient parcourir le ciel et que cet événement n’avait lieu que très rarement. Son grand-père, à qui il doit cette amour pour les étoiles, lui avait confié qu’il n’avait pu assister à un spectacle pareil qu’une seule fois dans sa longue vie et qu’il n’y avait rien de plus magnifique.";
 	}
 	
@@ -34,12 +34,12 @@ public class AffichageHist1 : MonoBehaviour {
             if (i < strComplete.Length)
             {
                 Text.text = strComplete;
-                voix.Stop();
+                //voix.Stop();
                 i = strComplete.Length;
             }
             else
             {
-                SceneManager.LoadScene(1);
+				SceneManager.LoadScene("histoire2");
             }
         }
 	   

@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class AffichageHist3 : MonoBehaviour {
 
@@ -63,31 +64,28 @@ public class AffichageHist3 : MonoBehaviour {
             j++;
         }
 
-        if(i == strComplete.Length && Input.GetKeyDown(KeyCode.Space)){
-            if(tabBuzz.Length != k || tabHorcan.Length != l)
-            {
-                i = 0;
-                value = !value;
-                CanevaBuzz.SetActive(value);
-                CanevaHorcan.SetActive(!value);
-                if (k > l)
-                {
-                    if (l == 2) Horcan.text = "Horcan";
-                    strComplete = tabHorcan[l];
-                    //paroleHorcan1.Play();
-                    l++;
-                    TextBuzz.text = "";
-                }
-                else
-                {
-                    strComplete = tabBuzz[k];
-                    //paroleBuzz1.Play();
-                    k++;
-                    TextHorcan.text = "";
-                }
-            }
-           
-        }
-
-    }
+		if (i == strComplete.Length && Input.GetKeyDown (KeyCode.Space)) {
+			if (tabBuzz.Length != k || tabHorcan.Length != l) {
+				i = 0;
+				value = !value;
+				CanevaBuzz.SetActive (value);
+				CanevaHorcan.SetActive (!value);
+				if (k > l) {
+					if (l == 2)
+						Horcan.text = "Horcan";
+					strComplete = tabHorcan [l];
+					//paroleHorcan1.Play();
+					l++;
+					TextBuzz.text = "";
+				} else {
+					strComplete = tabBuzz [k];
+					//paroleBuzz1.Play();
+					k++;
+					TextHorcan.text = "";
+				}
+			} else {
+				SceneManager.LoadScene("Shooter");
+			}
+    	}
+	}
 }
