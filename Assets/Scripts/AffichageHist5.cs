@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class AffichageHist5 : MonoBehaviour
 {
@@ -87,8 +88,8 @@ public class AffichageHist5 : MonoBehaviour
                     TextHorcan.text = "";
                 }
             }
-
-        }
-
+		} else {
+			SceneManager.LoadScene("Shooter");
+		}
     }
 }

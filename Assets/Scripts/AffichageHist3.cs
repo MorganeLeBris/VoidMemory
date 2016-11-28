@@ -84,7 +84,7 @@ public class AffichageHist3 : MonoBehaviour {
 					TextHorcan.text = "";
 				}
 			} else {
-				SceneManager.LoadScene("Shooter");
+				SceneManager.LoadScene("Tuto");
 			}
     	}
 	}

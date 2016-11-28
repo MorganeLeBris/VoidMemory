@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class AffichageHist4 : MonoBehaviour
 {
@@ -86,10 +87,9 @@ public class AffichageHist4 : MonoBehaviour
                     k++;
                     TextHorcan.text = "";
                 }
-            }
-
+			} else {
+				SceneManager.LoadScene("projet");
+			}
         }
-
     }
 }
-
