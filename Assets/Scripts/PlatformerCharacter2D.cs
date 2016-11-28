@@ -12,7 +12,7 @@ namespace UnityStandardAssets._2D
 		[SerializeField] protected LayerMask m_WhatIsGround;                  // A mask determining what is ground to the character
 
 
-		private float lifePoints = 3f;
+		private Health health;
 		protected bool m_AirControl = true;                 // Whether or not a player can steer while jumping;
 		protected Transform m_GroundCheck;    // A position marking where to check if the player is grounded.
 		protected const float k_GroundedRadius = .2f; // Radius of the overlap circle to determine if grounded
@@ -25,6 +25,7 @@ namespace UnityStandardAssets._2D
 		protected bool m_Jump;
 		protected bool isControlled = true;
 		protected bool onIce = false;
+		protected float friction = 1.0f;
 
 		private void Awake()
         {
@@ -33,6 +34,7 @@ namespace UnityStandardAssets._2D
             m_CeilingCheck = transform.Find("CeilingCheck");
             m_Anim = GetComponent<Animator>();
             m_Rigidbody2D = GetComponent<Rigidbody2D>();
+			health = GameObject.Find("Life").GetComponent<Health>(); ;
         }
 
         protected void Flip()
@@ -58,28 +60,52 @@ namespace UnityStandardAssets._2D
 
 		public void OnCollisionEnter2D(Collision2D collision)
 		{
-			if(collision.gameObject.tag == "IceFloor")
+			if(collision.gameObject.layer == 4)
+			{
+				StartCoroutine(restartLevel());
+			}
+			if (collision.gameObject.tag == "IceFloor")
 			{
 				onIce = true;
+				friction = 0.5f;
 			}
-		}
 
-		public void increaseHealth()
-		{
-			lifePoints++;
-			if (lifePoints > 3f)
-				lifePoints = 3f;
-		}
-
-		public void decreaseHealth()
-		{
-			lifePoints--;
-			if (lifePoints < 0f)
+			if (collision.gameObject.tag == "Floor")
 			{
-				restartLevel();
-				lifePoints = 3f;
+				onIce = false;
+				friction = 1f;
+			}
+			if (collision.gameObject.tag == "Pic")
+			{
+				health.decreaseHealth();
+				BlinkPlayer(8);
 			}
 		}
+
+		void BlinkPlayer(int numBlinks)
+		{
+			StartCoroutine(DoBlinks(numBlinks, 0.2f));
+		}
+
+		IEnumerator DoBlinks(int numBlinks, float seconds)
+		{
+			health.isInvincible = true;
+			for (int i = 0; i < numBlinks * 2; i++)
+			{
+
+				//toggle renderer
+				GetComponent<Renderer>().enabled = !GetComponent<Renderer>().enabled;
+
+				//wait for a bit
+				yield return new WaitForSeconds(seconds);
+			}
+
+			//make sure renderer is enabled when we exit
+			health.isInvincible = false;
+			GetComponent<Renderer>().enabled = true;
+		}
+
+		
 
 		private void onDead()
 		{

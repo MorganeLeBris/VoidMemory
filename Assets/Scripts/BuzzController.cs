@@ -15,27 +15,20 @@ namespace UnityStandardAssets._2D
 			// This can be done using layers instead but Sample Assets will not overwrite your project settings.
 			
 			Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
-			if (touchesWater(colliders))
-			{
-				Debug.Log("touchesWater");
-				restartLevel();
-			}
-			else
-			{
-				for (int i = 0; i < colliders.Length; i++)
-				{
-					if (colliders[i].gameObject != gameObject && !m_jetpackActive)
-						m_Grounded = true;
-				}
-				m_Anim.SetBool("Ground", m_Grounded);
 
-				// Set the vertical animation
-				m_Anim.SetFloat("vSpeed", m_Rigidbody2D.velocity.y);
-				if (!m_Jump)
-				{
-					// Read the jump input in Update so button presses aren't missed.
-					m_Jump = Input.GetButtonDown("JumpBuzz");
-				}
+			for (int i = 0; i < colliders.Length; i++)
+			{
+				if (colliders[i].gameObject != gameObject && !m_jetpackActive)
+					m_Grounded = true;
+			}
+			m_Anim.SetBool("Ground", m_Grounded);
+
+			// Set the vertical animation
+			m_Anim.SetFloat("vSpeed", m_Rigidbody2D.velocity.y);
+			if (!m_Jump)
+			{
+				// Read the jump input in Update so button presses aren't missed.
+				m_Jump = Input.GetButtonDown("JumpBuzz");
 			}
 		}
 
@@ -61,7 +54,6 @@ namespace UnityStandardAssets._2D
 					m_Rigidbody2D.velocity = new Vector2(move * m_MaxSpeed, 0f);
 				else
 					m_Rigidbody2D.velocity = new Vector2(move * m_MaxSpeed, m_Rigidbody2D.velocity.y);
-
 				// If the input is moving the player right and the player is facing left...
 				if (move > 0 && !m_FacingRight)
 				{

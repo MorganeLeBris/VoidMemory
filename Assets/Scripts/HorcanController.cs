@@ -15,26 +15,21 @@ namespace UnityStandardAssets._2D
 			// The player is grounded if a circlecast to the groundcheck position hits anything designated as ground
 			// This can be done using layers instead but Sample Assets will not overwrite your project settings.
 			Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
-			if (touchesWater(colliders))
-				restartLevel();
-			else
+			for (int i = 0; i < colliders.Length; i++)
 			{
-				for (int i = 0; i < colliders.Length; i++)
+				if (colliders[i].gameObject != gameObject && !m_bigJump)
 				{
-					if (colliders[i].gameObject != gameObject && !m_bigJump)
-					{
-						m_Grounded = true;
-					}
+					m_Grounded = true;
 				}
-				m_Anim.SetBool("Ground", m_Grounded);
+			}
+			m_Anim.SetBool("Ground", m_Grounded);
 
-				// Set the vertical animation
-				m_Anim.SetFloat("vSpeed", m_Rigidbody2D.velocity.y);
-				if (!m_Jump)
-				{
-					// Read the jump input in Update so button presses aren't missed.
-					m_Jump = Input.GetButtonDown("JumpHorcan");
-				}
+			// Set the vertical animation
+			m_Anim.SetFloat("vSpeed", m_Rigidbody2D.velocity.y);
+			if (!m_Jump)
+			{
+				// Read the jump input in Update so button presses aren't missed.
+				m_Jump = Input.GetButtonDown("JumpHorcan");
 			}
 		}
 
@@ -75,7 +70,7 @@ namespace UnityStandardAssets._2D
                 }
 			}
 
-			if (Input.GetKeyDown(KeyCode.E) && m_timerJump < 0.3f)
+			if (Input.GetKeyDown(KeyCode.E) && m_timerJump < 0.5f)
 			{
 				m_Rigidbody2D.gravityScale = 0;
 				m_timerJump += 0.01f;
